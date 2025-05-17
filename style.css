@@ -1,28 +1,29 @@
 body {
-  font-family: sans-serif;
   margin: 0;
-  padding: 2rem;
-  background: #f5f5f5;
+  font-family: "Segoe UI", sans-serif;
+  background: #f9f9f9;
   color: #333;
+  scroll-behavior: smooth;
 }
 
-header, section {
-  max-width: 800px;
-  margin: 3rem auto;
-  padding: 1rem;
-  background: white;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+section {
+  padding: 80px 20px;
+  text-align: center;
+  min-height: 100vh;
 }
 
-h1, h2 {
-  color: #222;
+.hero {
+  background: linear-gradient(135deg, #6a11cb 0%, #2575fc 100%);
+  color: white;
 }
 
-a {
-  color: #fff;
-  background: #0070f3;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  text-decoration: none;
+.reveal {
+  opacity: 0;
+  transform: translateY(50px);
+  transition: all 0.6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: none;
 }
