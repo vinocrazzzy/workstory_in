@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/workstory-in/static/css/main.e6c13ad2.css",
+    "main.js": "/workstory-in/static/js/main.eb8623a2.js",
+    "static/js/453.a922d9e8.chunk.js": "/workstory-in/static/js/453.a922d9e8.chunk.js",
+    "index.html": "/workstory-in/index.html",
+    "main.e6c13ad2.css.map": "/workstory-in/static/css/main.e6c13ad2.css.map",
+    "main.eb8623a2.js.map": "/workstory-in/static/js/main.eb8623a2.js.map",
+    "453.a922d9e8.chunk.js.map": "/workstory-in/static/js/453.a922d9e8.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.eb8623a2.js"
+  ]
+}
